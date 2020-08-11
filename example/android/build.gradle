@@ -5,7 +5,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.4'
+        classpath 'com.android.tools.build:gradle:3.4.2'
     }
 }
 
@@ -30,6 +30,6 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.4'
-}
+//task wrapper(type: Wrapper) {
+//    gradleVersion = '5.1.1'
+//}
